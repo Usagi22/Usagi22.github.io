@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus - Conoce EDEC</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #001f3f; /* Azul marino */
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        nav {
+            text-align: center;
+            background: linear-gradient(to right, #6a5acd, #0073e6); /* Púrpura a azul */
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .campus-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 10%;
+        }
+        .campus {
+            background-color: #6a5acd; /* Color púrpura */
+            color: white;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 30%; /* Ancho mínimo del 30% */
+            display: flex; /* Flex para alinear texto e imagen */
+            flex-direction: row; /* Alínea horizontalmente */
+            align-items: center; /* Centra verticalmente */
+        }
+        .campus-image {
+            margin-left: auto; /* Empuja la imagen a la derecha */
+        }
+        .campus-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #0073e6; /* Azul */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nuestro Campus</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="rectores.html">Rectores</a>
+        <a href="estudios.html">Estudios Impartidos</a>
+        <a href="sitio-oficial.html">Sitio Oficial</a>
+    </nav>
+
+    <div class="campus-container">
+        <!-- Eloy Cavazos -->
+        <div class="campus">
+            <div class="campus-text">
+                <h2>Eloy Cavazos</h2>
+                <p>Av Eloy Cavazos 7741, S.c.t., 67195 Guadalupe, N.L.</p>
+            </div>
+            <div class="campus-image">
+                <img src="EDECELOY.jpg" alt="Campus Eloy Cavazos">
+            </div>
+        </div>
+
+        <!-- Apodaca -->
+        <div class="campus">
+            <div class="campus-text">
+                <h2>Apodaca</h2>
+                <p>Carretera Mezquital - Santa Rosa cruz Calle del Gaseoducto Prados de Santa Rosa, 66610 Cdad. Apodaca, N.L.</p>
+            </div>
+            <div class="campus-image">
+                <img src="EDECAPO.jpg" alt="Campus Apodaca">
+            </div>
+        </div>
+
+        <!-- Revolución -->
+        <div class="campus">
+            <div class="campus-text">
+                <h2>Revolución</h2>
+                <p>Av. Revolución 850, Jardín Español, 64800 Monterrey, N.L.</p>
+            </div>
+            <div class="campus-image">
+                <img src="EDECREV.jpeg" alt="Campus Revolución">
+            </div>
+        </div>
+
+        <!-- Miguel Alemán -->
+        <div class="campus">
+            <div class="campus-text">
+                <h2>Miguel Alemán</h2>
+                <p>Av. Miguel Alemán 1101, Nueva Linda Vista, 67129 Guadalupe, N.L.</p>
+            </div>
+            <div class="campus-image">
+                <img src="EDECMIGUEL.jpg" alt="Campus Miguel Alemán">
+            </div>
+        </div>
+
+        <!-- Opción Online -->
+        <div class="campus">
+            <div class="campus-text">
+                <h2>Online</h2>
+                <p>Nuestra opción online permite a los estudiantes acceder a programas académicos flexibles, adaptándose a sus necesidades y horarios, sin comprometer la calidad educativa.</p>
+            </div>
+            <div class="campus-image">
+                <img src="EDECONLINE.jpg" alt="Opción Online">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Edec. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
